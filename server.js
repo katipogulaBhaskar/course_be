@@ -12,7 +12,7 @@ const PORT = process.env.PORT || 8000;
 
 // // Define CORS options
 const corsOptions = {
-     origin: 'http://localhost:5173',  // Only allow requests from this origin
+     origin: 'https://course527.netlify.app/',  // Only allow requests from this origin
      allowedHeaders: ['Content-Type', 'Authorization'],  // Allow specific headers
      credentials: true,  // Allow cookies to be sent with the request
   };
